@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Switch } from 'react-router'
 import { Link } from 'react-router-dom'
-import BusinessLogo from './images/logo_white_background.jpg'
+import { Homepage } from './Homepage'
 import { AboutMe } from './Pages/AboutMe'
 
 export function App() {
@@ -9,9 +9,11 @@ export function App() {
     <main>
       <header>
         <ul>
-          <div className="Logo">
-            <img src={BusinessLogo} width="300" height="50"></img>
-          </div>
+          <Link to="/">
+            <div className="Logo">
+              <img src="logo_size.jpg" width="300" height="50"></img>
+            </div>
+          </Link>
           <ul className="Logos">
             <Link to="/AboutMe">
               <div className="About">About</div>
@@ -45,6 +47,11 @@ export function App() {
         </ul>
       </header>
       <section>
+        <Switch>
+          <Route exact path="/">
+            <Homepage />
+          </Route>
+        </Switch>
         <Switch>
           <Route path="/AboutMe">
             <AboutMe />
