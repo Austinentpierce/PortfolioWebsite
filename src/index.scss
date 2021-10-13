@@ -1,4 +1,5 @@
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap');
 
 :root {
   font: 16px / 1 sans-serif;
@@ -70,4 +71,15 @@ footer {
 }
 .umbrella {
   color: black;
+}
+.AboutPage {
+  margin: 1.25rem;
+}
+.AboutHeader {
+  text-align: center;
+  font-family: 'Scheherazade New', serif;
+}
+p {
+  text-align: center;
+  font-family: 'Scheherazade New', serif;
 }

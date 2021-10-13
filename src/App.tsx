@@ -1,5 +1,8 @@
 import React from 'react'
+import { Route, Switch } from 'react-router'
+import { Link } from 'react-router-dom'
 import BusinessLogo from './images/logo_white_background.jpg'
+import { AboutMe } from './Pages/AboutMe'
 
 export function App() {
   return (
@@ -10,7 +13,9 @@ export function App() {
             <img src={BusinessLogo} width="300" height="50"></img>
           </div>
           <ul className="Logos">
-            <div className="About">About</div>
+            <Link to="/AboutMe">
+              <div className="About">About</div>
+            </Link>
             <li className="LinkedIn">
               <a href="https://www.linkedin.com/in/austin-pierce-5017b0220/">
                 <img
@@ -39,6 +44,13 @@ export function App() {
           </ul>
         </ul>
       </header>
+      <section>
+        <Switch>
+          <Route path="/AboutMe">
+            <AboutMe />
+          </Route>
+        </Switch>
+      </section>
       <footer>
         <div>
           <i className="umbrella fas fa-umbrella-beach"></i>Built in
