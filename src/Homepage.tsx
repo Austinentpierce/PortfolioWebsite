@@ -10,28 +10,46 @@ export function Homepage() {
   return (
     <main className="HomepageImages">
       <div className="Project1">
-        <img src={Project1} width="200" height="200"></img>
+        <a href="https://thechangingcolorpicker.netlify.app">
+          <img src={Project1} width="200" height="200"></img>
+        </a>
         <section>The Color Picker</section>
       </div>
       <div className="Project2">
-        <img src={Project2} width="200" height="200"></img>
+        <a href="https://reactocats.netlify.app">
+          <img src={Project2} width="200" height="200"></img>
+        </a>
         <section>ReactoCats</section>
       </div>
       <div className="Project3">
-        <img src={Project3} width="200" height="200"></img>
-        <section>Rock Paper Scissors Lizard Spock</section>
+        <a href="https://roshambo22.netlify.app">
+          <img src={Project3} width="200" height="200"></img>
+        </a>
+        <section>Rock Paper Scissors</section>
       </div>
       <div className="Project4">
-        <img src={Project4} width="200" height="200"></img>
+        <a href="https://snowmangame.netlify.app">
+          <img src={Project4} width="200" height="200"></img>
+        </a>
+        <section>Snowman Game</section>
       </div>
       <div className="Project5">
-        <img src={Project5} width="200" height="200"></img>
+        <a href="https://plantsrecordsandcrystals.herokuapp.com/ ">
+          <img src={Project5} width="200" height="200"></img>
+        </a>
+        <section>Plants, Records and Crystals</section>
       </div>
       <div className="Project6">
-        <img src={Project6} width="200" height="200"></img>
+        <a href="https://avg-crypto-currency-tracker.netlify.app">
+          <img src={Project6} width="200" height="200"></img>
+        </a>
+        <section>Crypto Tracker</section>
       </div>
       <div className="Project7">
-        <img src={Project7} width="200" height="200"></img>
+        <a href="https://scoreboard444.netlify.app">
+          <img src={Project7} width="200" height="200"></img>
+        </a>
+        <section>ScoreBoard</section>
       </div>
     </main>
   )
