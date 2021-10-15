@@ -19,11 +19,14 @@ header {
   top: 0;
   opacity: 0.8;
   box-shadow: gray 3px 3px 15px;
+  padding: 0;
 }
 
 header ul {
   display: flex;
   list-style: none;
+  padding: 0.5rem;
+  margin: 0;
 }
 ul .Logos {
   justify-content: right;
@@ -71,6 +74,22 @@ footer {
   box-shadow: gray 12px 12px 24px;
   font-family: 'Scheherazade New', serif;
 }
+.HomepageImages {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.Project1 img,
+.Project2 img,
+.Project3 img,
+.Project4 img,
+.Project5 img,
+.Project6 img,
+.Project7 img {
+  margin: 0.75rem;
+  border-radius: 0.85rem;
+  align-content: center;
+}
 .umbrella {
   color: black;
 }
@@ -84,4 +103,7 @@ footer {
 p {
   text-align: center;
   font-family: 'Scheherazade New', serif;
+}
+.Logo {
+  padding: 0;
 }

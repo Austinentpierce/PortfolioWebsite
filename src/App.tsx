@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 import { Homepage } from './Homepage'
 import { AboutMe } from './Pages/AboutMe'
 
+import step_0 from './images/logo_white_background.jpg'
+
 export function App() {
   return (
     <main>
@@ -11,7 +13,7 @@ export function App() {
         <ul>
           <Link to="/">
             <div className="Logo">
-              <img src="logo_size.jpg" width="300" height="50"></img>
+              <img src={step_0} width="225" height="70"></img>
             </div>
           </Link>
           <ul className="Logos">
