@@ -22,22 +22,12 @@ export function App() {
             </Link>
             <li className="LinkedIn">
               <a href="https://www.linkedin.com/in/austin-pierce-5017b0220/">
-                <img
-                  src="https://simg.nicepng.com/png/small/461-4616944_linkedin-logo-png-linked-in-icon-svg.png"
-                  width="45"
-                  height="35"
-                  alt="LinkedinLogo"
-                />
+                <i className="fab fa-2x fa-linkedin"></i>
               </a>
             </li>
             <li className="Github">
               <a href="https://github.com/Austinentpierce">
-                <img
-                  src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-                  width="45"
-                  height="45"
-                  alt="GithubLogo"
-                />
+                <i className="fab fa-2x fa-github"></i>
               </a>
             </li>
             <li className="EmailLogo">

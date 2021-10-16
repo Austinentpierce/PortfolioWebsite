@@ -1,5 +1,6 @@
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Scheherazade+New:wght@700&display=swap');
 
 :root {
   font: 16px / 1 sans-serif;
@@ -31,18 +32,20 @@ header ul {
 ul .Logos {
   justify-content: right;
 }
+section .HomepageImages {
+  justify-content: center;
+}
 div .About {
   margin: 1.15rem 1rem 1rem 1rem;
-  color: blue;
+  color: rgb(81, 81, 252);
   text-shadow: black 0.03rem 0.03rem;
   text-align: right;
   position: absolute;
   right: 14.5%;
-  font-family: 'Scheherazade New', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 div .LinkedIn {
   margin: 0.5rem 1rem 0 1rem;
-  text-align: center;
   text-align: right;
   position: absolute;
   right: 0%;
@@ -53,10 +56,10 @@ div .Github {
   text-align: right;
   position: absolute;
   right: 5.5%;
+  margin-top: 0.5rem;
 }
 div .EmailLogo {
   margin: 0.6rem 1rem 0 1rem;
-
   text-align: right;
   position: absolute;
   right: 10%;
@@ -69,15 +72,18 @@ footer {
   left: 0;
   right: 0;
   text-align: center;
-  color: blue;
+  color: rgb(69, 69, 250);
   text-shadow: black 0.03rem 0.03rem;
   box-shadow: gray 12px 12px 24px;
-  font-family: 'Scheherazade New', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .HomepageImages {
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
+}
+.PortfolioHeader {
+  font-family: 'Montserrat', sans-serif;
 }
 .Project1 img,
 .Project2 img,
@@ -90,11 +96,23 @@ footer {
   border-radius: 0.85rem;
   align-content: center;
   border: black solid 0.1rem;
+  box-shadow: black 12px 12px 24px;
+}
+.Project1 img:hover,
+.Project2 img:hover,
+.Project3 img:hover,
+.Project4 img:hover,
+.Project5 img:hover,
+.Project6 img:hover,
+.Project7 img:hover {
+  box-shadow: rgb(0, 0, 167) 12px 12px 24px;
 }
 section {
   text-align: center;
-  font-family: 'Scheherazade New', serif;
+  font-family: 'Montserrat', sans-serif;
   color: blue;
+  margin: 0.5rem;
+  margin-bottom: 1rem;
 }
 .umbrella {
   color: black;
@@ -102,14 +120,62 @@ section {
 .AboutPage {
   margin: 1.25rem;
 }
+.envelope {
+  color: rgb(81, 81, 252);
+}
 .AboutHeader {
   text-align: center;
-  font-family: 'Scheherazade New', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 p {
   text-align: center;
-  font-family: 'Scheherazade New', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .Logo {
   padding: 0;
+}
+.fab {
+  color: black;
+}
+@media all and (max-width: 375px) {
+  div .About {
+    font-size: 0.75rem;
+    right: 25%;
+    margin-top: 1.2rem;
+  }
+  div .EmailLogo {
+    right: 17%;
+    font-size: 0.85rem;
+    margin-top: 0.75rem;
+  }
+  div .Github {
+    font-size: 0.95rem;
+    right: 10.25%;
+    margin-top: 0.65rem;
+  }
+  div .LinkedIn {
+    font-size: 0.95rem;
+    margin-top: 0.65rem;
+  }
+}
+@media all and (max-width: 428px) {
+  div .About {
+    font-size: 0.75rem;
+    right: 25%;
+    margin-top: 1.2rem;
+  }
+  div .EmailLogo {
+    right: 17%;
+    font-size: 0.85rem;
+    margin-top: 0.75rem;
+  }
+  div .Github {
+    font-size: 0.95rem;
+    right: 9.85%;
+    margin-top: 0.65rem;
+  }
+  div .LinkedIn {
+    font-size: 0.95rem;
+    margin-top: 0.65rem;
+  }
 }

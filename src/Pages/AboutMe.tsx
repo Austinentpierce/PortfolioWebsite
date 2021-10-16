@@ -4,6 +4,7 @@ export function AboutMe() {
   return (
     <main className="AboutPage">
       <h1 className="AboutHeader">A little about Austin Pierce</h1>
+
       <p>
         The first time Austin had his entrepreneurial mindset was at 16 years
         old, he was going to the gym very frequently at that time and got
