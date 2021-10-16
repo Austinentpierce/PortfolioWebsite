@@ -52,8 +52,8 @@ export function App() {
       </section>
       <footer>
         <div>
-          <i className="umbrella fas fa-umbrella-beach"></i>Built in
-          Tampa,Florida<i className="umbrella fas fa-umbrella-beach"></i>
+          <i className="fab fa-html5"></i>Built in Tampa,Florida
+          <i className="fab fa-css3-alt"></i>
         </div>
       </footer>
     </main>

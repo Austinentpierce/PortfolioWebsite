@@ -37,11 +37,11 @@ section .HomepageImages {
 }
 div .About {
   margin: 1.15rem 1rem 1rem 1rem;
-  color: rgb(81, 81, 252);
+  color: blue;
   text-shadow: black 0.03rem 0.03rem;
   text-align: right;
   position: absolute;
-  right: 14.5%;
+  right: 15%;
   font-family: 'Montserrat', sans-serif;
 }
 div .LinkedIn {
@@ -57,6 +57,18 @@ div .Github {
   position: absolute;
   right: 5.5%;
   margin-top: 0.5rem;
+}
+div .Github:hover {
+  text-shadow: blue 2px 2px 12px;
+}
+div .LinkedIn:hover {
+  text-shadow: blue 2px 2px 12px;
+}
+div .EmailLogo:hover {
+  text-shadow: blue 2px 2px 12px;
+}
+div .About:hover {
+  text-shadow: black 2px 2px 12px;
 }
 div .EmailLogo {
   margin: 0.6rem 1rem 0 1rem;
@@ -121,7 +133,7 @@ section {
   margin: 1.25rem;
 }
 .envelope {
-  color: rgb(81, 81, 252);
+  color: black;
 }
 .AboutHeader {
   text-align: center;
