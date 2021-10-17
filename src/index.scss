@@ -14,12 +14,12 @@ body {
   background-color: whitesmoke;
 }
 header {
-  background-color: white;
+  background-color: black;
   padding: 0.3rem;
   position: sticky;
   top: 0;
   opacity: 0.8;
-  box-shadow: gray 3px 3px 15px;
+  box-shadow: gray 12px 12px 24px;
   padding: 0;
 }
 
@@ -37,7 +37,7 @@ section .HomepageImages {
 }
 div .About {
   margin: 1.15rem 1rem 1rem 1rem;
-  color: blue;
+  color: white;
   text-shadow: black 0.03rem 0.03rem;
   text-align: right;
   position: absolute;
@@ -77,14 +77,14 @@ div .EmailLogo {
   right: 10%;
 }
 footer {
-  background-color: white;
+  background-color: black;
   padding: 0.5rem;
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   text-align: center;
-  color: rgb(69, 69, 250);
+  color: white;
   text-shadow: black 0.03rem 0.03rem;
   box-shadow: gray 12px 12px 24px;
   font-family: 'Montserrat', sans-serif;
@@ -133,11 +133,15 @@ section {
   margin: 1.25rem;
 }
 .envelope {
-  color: black;
+  color: blue;
 }
 .AboutHeader {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+}
+.language {
+  margin: 1rem;
+  color: black;
 }
 p {
   text-align: center;
@@ -147,7 +151,7 @@ p {
   padding: 0;
 }
 .fab {
-  color: black;
+  color: blue;
 }
 @media all and (max-width: 375px) {
   div .About {
@@ -169,6 +173,10 @@ p {
     font-size: 0.95rem;
     margin-top: 0.65rem;
   }
+  .language {
+    font-size: 1.25rem;
+    margin: 0.12rem;
+  }
 }
 @media all and (max-width: 428px) {
   div .About {
@@ -189,5 +197,59 @@ p {
   div .LinkedIn {
     font-size: 0.95rem;
     margin-top: 0.65rem;
+  }
+  .language {
+    margin: 0.29rem;
+    font-size: 1.25rem;
+  }
+}
+@media all and (max-width: 414px) {
+  div .About {
+    font-size: 0.75rem;
+    right: 25%;
+    margin-top: 1.2rem;
+  }
+  div .EmailLogo {
+    right: 17%;
+    font-size: 0.85rem;
+    margin-top: 0.75rem;
+  }
+  div .Github {
+    font-size: 0.95rem;
+    right: 9.85%;
+    margin-top: 0.65rem;
+  }
+  div .LinkedIn {
+    font-size: 0.95rem;
+    margin-top: 0.65rem;
+  }
+  .language {
+    margin: 0.25rem;
+    font-size: 1.25rem;
+  }
+}
+@media all and (max-width: 390px) {
+  div .About {
+    font-size: 0.75rem;
+    right: 25%;
+    margin-top: 1.2rem;
+  }
+  div .EmailLogo {
+    right: 17%;
+    font-size: 0.85rem;
+    margin-top: 0.75rem;
+  }
+  div .Github {
+    font-size: 0.95rem;
+    right: 9.85%;
+    margin-top: 0.65rem;
+  }
+  div .LinkedIn {
+    font-size: 0.95rem;
+    margin-top: 0.65rem;
+  }
+  .language {
+    margin: 0.2rem;
+    font-size: 1.25rem;
   }
 }

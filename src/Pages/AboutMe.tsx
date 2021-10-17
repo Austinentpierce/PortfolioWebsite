@@ -3,7 +3,21 @@ import React from 'react'
 export function AboutMe() {
   return (
     <main className="AboutPage">
-      <h1 className="AboutHeader">A little about Austin Pierce</h1>
+      <h1 className="AboutHeader">
+        <i className="language fab fa-html5"></i>
+        <i className="language fab fa-css3-alt"></i>
+        <i className="language fab fa-java"></i>
+        <i className="language fab fa-js"></i>
+        <i className="language fab fa-python"></i>
+        <i className="language fab fa-react"></i>
+        <i className="language fab fa-git-square"></i>
+        <i className="language fab fa-github-square"></i>
+        <i className="language fas fa-database"></i>
+        <i className="language fab fa-aws"></i>
+        <i className="language fab fa-node"></i>
+        <i className="language fab fa-php"></i>
+        <i className="language fab fa-swift"></i>
+      </h1>
 
       <p>
         The first time Austin had his entrepreneurial mindset was at 16 years

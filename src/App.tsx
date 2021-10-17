@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { Homepage } from './Homepage'
 import { AboutMe } from './Pages/AboutMe'
 
-import step_0 from './images/logo_white_background.jpg'
+import step_0 from './images/white_logo_dark_background.jpg'
 
 export function App() {
   return (
