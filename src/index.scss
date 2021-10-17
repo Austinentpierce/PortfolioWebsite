@@ -49,6 +49,7 @@ div .LinkedIn {
   text-align: right;
   position: absolute;
   right: 0%;
+  font-size: 1.1rem;
 }
 div .Github {
   margin: 0.15rem 0.5rem 0 0.5rem;
@@ -57,18 +58,19 @@ div .Github {
   position: absolute;
   right: 5.5%;
   margin-top: 0.5rem;
+  font-size: 1.1rem;
 }
 div .Github:hover {
-  text-shadow: blue 2px 2px 12px;
+  text-shadow: white 2px 2px 12px;
 }
 div .LinkedIn:hover {
-  text-shadow: blue 2px 2px 12px;
+  text-shadow: white 2px 2px 12px;
 }
 div .EmailLogo:hover {
-  text-shadow: blue 2px 2px 12px;
+  text-shadow: white 2px 2px 12px;
 }
 div .About:hover {
-  text-shadow: black 2px 2px 12px;
+  text-shadow: white 2px 2px 12px;
 }
 div .EmailLogo {
   margin: 0.6rem 1rem 0 1rem;
@@ -88,6 +90,7 @@ footer {
   text-shadow: black 0.03rem 0.03rem;
   box-shadow: gray 12px 12px 24px;
   font-family: 'Montserrat', sans-serif;
+  opacity: 0.8;
 }
 .HomepageImages {
   display: flex;
@@ -134,6 +137,7 @@ section {
 }
 .envelope {
   color: blue;
+  font-size: 2.3rem;
 }
 .AboutHeader {
   text-align: center;
@@ -141,7 +145,7 @@ section {
 }
 .language {
   margin: 1rem;
-  color: black;
+  color: blue;
 }
 p {
   text-align: center;
