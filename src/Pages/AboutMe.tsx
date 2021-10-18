@@ -16,7 +16,6 @@ export function AboutMe() {
         <i className="language fab fa-aws"></i>
         <i className="language fab fa-node"></i>
         <i className="language fab fa-php"></i>
-        <i className="language fab fa-swift"></i>
       </h1>
 
       <p>
