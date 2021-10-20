@@ -14,7 +14,7 @@ body {
   background-color: whitesmoke;
 }
 header {
-  background-color: black;
+  background-color: #001fff;
   padding: 0.3rem;
   position: sticky;
   top: 0;
@@ -29,57 +29,66 @@ header ul {
   padding: 0.5rem;
   margin: 0;
 }
-ul .Logos {
-  justify-content: right;
+.AboutPage h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  border-bottom: black;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+div .ContactPortion {
 }
 section .HomepageImages {
   justify-content: center;
 }
-div .About {
-  margin: 1.15rem 1rem 1rem 1rem;
+.Logos {
+  padding: 0;
+}
+
+.Logos .About {
   color: white;
-  text-shadow: black 0.03rem 0.03rem;
+
   text-align: right;
-  position: absolute;
-  right: 15%;
+  font-size: 1.15rem;
   font-family: 'Montserrat', sans-serif;
-}
-div .LinkedIn {
-  margin: 0.5rem 1rem 0 1rem;
-  text-align: right;
+  right: 8%;
   position: absolute;
-  right: 0%;
-  font-size: 1.1rem;
+  margin: 1.58rem 0 0 0;
+
+  padding: 0.35rem;
+  border-radius: 0.35rem;
 }
-div .Github {
-  margin: 0.15rem 0.5rem 0 0.5rem;
+.LinkedIn {
   text-align: center;
-  text-align: right;
-  position: absolute;
-  right: 5.5%;
-  margin-top: 0.5rem;
-  font-size: 1.1rem;
+  list-style: none;
+  margin: 1rem;
 }
-div .Github:hover {
-  text-shadow: white 2px 2px 12px;
+.Github {
+  text-align: center;
+  list-style: none;
+  margin: 1rem;
 }
-div .LinkedIn:hover {
-  text-shadow: white 2px 2px 12px;
+.EmailLogo {
+  text-align: center;
+  list-style: none;
+  margin: 1rem;
 }
-div .EmailLogo:hover {
-  text-shadow: white 2px 2px 12px;
+.envelope {
+  margin: 0 0 2rem 0;
 }
-div .About:hover {
-  text-shadow: white 2px 2px 12px;
+ul {
+  display: flex;
+  justify-content: left;
+  margin: 0 0.5rem 0.5rem 0.5rem;
 }
-div .EmailLogo {
-  margin: 0.6rem 1rem 0 1rem;
-  text-align: right;
-  position: absolute;
-  right: 10%;
+
+.Logos .About:hover {
+  text-decoration: underline;
 }
 footer {
-  background-color: black;
+  background-color: #001fff;
   padding: 0.5rem;
   position: fixed;
   bottom: 0;
@@ -99,6 +108,15 @@ footer {
 }
 .PortfolioHeader {
   font-family: 'Montserrat', sans-serif;
+}
+div .Project1,
+div .Project2,
+div .Project3,
+div .Project4,
+div .Project5,
+div .Project6,
+div .Project7 {
+  border-top: black solid 0.1rem;
 }
 .Project1 img,
 .Project2 img,
@@ -125,19 +143,12 @@ footer {
 section {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  color: blue;
+  color: black;
   margin: 0.5rem;
   margin-bottom: 1rem;
 }
-.umbrella {
-  color: black;
-}
 .AboutPage {
   margin: 1.25rem;
-}
-.envelope {
-  color: blue;
-  font-size: 1.95rem;
 }
 .AboutHeader {
   text-align: center;
@@ -145,36 +156,35 @@ section {
 }
 .language {
   margin: 1rem;
-  color: blue;
+  color: black;
 }
 p {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  padding: 1rem;
 }
-.Logo {
+.Logo img {
   padding: 0;
+  border-radius: 0.35rem;
 }
 .fab {
-  color: blue;
+  color: black;
 }
 @media all and (max-width: 375px) {
   div .About {
     font-size: 0.75rem;
-    right: 25%;
     margin-top: 1.2rem;
   }
   div .EmailLogo {
-    right: 17%;
     font-size: 0.85rem;
-    margin-top: 0.75rem;
   }
-  li .Github {
+  div .Github {
     font-size: 0.95rem;
-    right: 10.2%;
+
     margin-top: 0.65rem;
   }
   div .LinkedIn {
-    font-size: 0.95rem;
+    font-size: 5rem;
     margin-top: 0.65rem;
   }
   .language {

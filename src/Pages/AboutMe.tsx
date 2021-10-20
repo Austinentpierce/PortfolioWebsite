@@ -1,4 +1,5 @@
 import React from 'react'
+import Headshot from './images/AustinPierce1copy.jpg'
 
 export function AboutMe() {
   return (
@@ -17,7 +18,10 @@ export function AboutMe() {
         <i className="language fab fa-node"></i>
         <i className="language fab fa-php"></i>
       </h1>
-
+      <h2>About</h2>
+      <div>
+        <img src={Headshot} width="200" height="200"></img>
+      </div>
       <p>
         The first time Austin had his entrepreneurial mindset was at 16 years
         old, he was going to the gym very frequently at that time and got
@@ -63,6 +67,25 @@ export function AboutMe() {
         wanted to learn ever since. He decided to take the leap and join a 3
         month immersive coding bootcamp.
       </p>
+
+      <div className="ContactPortion">
+        <h3>Contact:</h3>
+        <li className="LinkedIn">
+          <a href="https://www.linkedin.com/in/austin-pierce-5017b0220/">
+            <i className="fab fa-3x fa-linkedin"></i>
+          </a>
+        </li>
+        <li className="Github">
+          <a href="https://github.com/Austinentpierce">
+            <i className="fab fa-3x fa-github"></i>
+          </a>
+        </li>
+        <li className="EmailLogo">
+          <a href="mailto:austinentpierce@gmail.com">
+            <i className="envelope fab fa-3x fas fa-envelope"></i>
+          </a>
+        </li>
+      </div>
     </main>
   )
 }
