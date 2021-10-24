@@ -1,5 +1,4 @@
 import React from 'react'
-import Headshot from './images/AustinPierce1copy.jpg'
 
 export function AboutMe() {
   return (
@@ -19,9 +18,7 @@ export function AboutMe() {
         <i className="language fab fa-php"></i>
       </h1>
       <h2>About</h2>
-      <div>
-        <img src={Headshot} width="200" height="200"></img>
-      </div>
+
       <p>
         The first time Austin had his entrepreneurial mindset was at 16 years
         old, he was going to the gym very frequently at that time and got

@@ -60,22 +60,20 @@ section .HomepageImages {
   padding: 0.35rem;
   border-radius: 0.35rem;
 }
-.LinkedIn {
-  text-align: center;
-  list-style: none;
-  margin: 1rem;
-}
-.Github {
-  text-align: center;
-  list-style: none;
-  margin: 1rem;
-}
+.LinkedIn,
+.Github,
 .EmailLogo {
   text-align: center;
   list-style: none;
-  margin: 1rem;
+  margin: 1rem 15rem 1rem 15rem;
 }
-.envelope {
+.LinkedIn:hover,
+.Github:hover,
+.EmailLogo:hover {
+  text-shadow: #001fff 4px 4px 15px;
+}
+
+.EmailLogo .envelope {
   margin: 0 0 2rem 0;
 }
 ul {
@@ -109,6 +107,13 @@ footer {
 .PortfolioHeader {
   font-family: 'Montserrat', sans-serif;
 }
+.ProjectHeader {
+  background-color: white;
+  margin: 1rem 7.5rem 1rem 7.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
 div .Project1,
 div .Project2,
 div .Project3,
@@ -117,7 +122,13 @@ div .Project5,
 div .Project6,
 div .Project7 {
   border-top: black solid 0.1rem;
+
+  margin: 1rem auto 1rem auto;
+
+  width: auto;
+  padding: 1rem;
 }
+
 .Project1 img,
 .Project2 img,
 .Project3 img,
@@ -138,7 +149,7 @@ div .Project7 {
 .Project5 img:hover,
 .Project6 img:hover,
 .Project7 img:hover {
-  box-shadow: rgb(0, 0, 167) 12px 12px 24px;
+  box-shadow: #001fff 12px 12px 24px;
 }
 section {
   text-align: center;
@@ -161,7 +172,10 @@ section {
 p {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  padding: 1rem;
+  margin: 1rem 8rem 1rem 8rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
 }
 .Logo img {
   padding: 0;
@@ -180,7 +194,7 @@ p {
   }
   div .Github {
     font-size: 0.95rem;
-
+    text-align: center;
     margin-top: 0.65rem;
   }
   div .LinkedIn {
@@ -191,6 +205,9 @@ p {
     font-size: 1.25rem;
     margin: 0.12rem;
   }
+  p {
+    margin: 1rem;
+  }
 }
 @media all and (max-width: 428px) {
   div .About {
@@ -199,22 +216,24 @@ p {
     margin-top: 1.2rem;
   }
   div .EmailLogo {
-    right: 17%;
     font-size: 0.85rem;
-    margin-top: 0.75rem;
+    margin: 0.65rem 0 0 0;
   }
   div .Github {
     font-size: 0.95rem;
-    right: 9.85%;
-    margin-top: 0.65rem;
+
+    margin: 0.65rem 0 0 0;
   }
   div .LinkedIn {
     font-size: 0.95rem;
-    margin-top: 0.65rem;
+    margin: 0.65rem 0 0 0;
   }
   .language {
     margin: 0.29rem;
     font-size: 1.25rem;
+  }
+  p {
+    margin: 1rem;
   }
 }
 @media all and (max-width: 414px) {
@@ -224,13 +243,12 @@ p {
     margin-top: 1.2rem;
   }
   div .EmailLogo {
-    right: 17%;
     font-size: 0.85rem;
     margin-top: 0.75rem;
   }
   div .Github {
     font-size: 0.95rem;
-    right: 9.85%;
+
     margin-top: 0.65rem;
   }
   div .LinkedIn {
@@ -241,21 +259,23 @@ p {
     margin: 0.25rem;
     font-size: 1.25rem;
   }
+  p {
+    margin: 1rem;
+  }
 }
 @media all and (max-width: 390px) {
   div .About {
     font-size: 0.75rem;
-    right: 25%;
+
     margin-top: 1.2rem;
   }
   div .EmailLogo {
-    right: 17%;
     font-size: 0.85rem;
     margin-top: 0.75rem;
   }
   div .Github {
     font-size: 0.95rem;
-    right: 9.85%;
+
     margin-top: 0.65rem;
   }
   div .LinkedIn {
@@ -265,5 +285,8 @@ p {
   .language {
     margin: 0.2rem;
     font-size: 1.25rem;
+  }
+  p {
+    margin: 1rem;
   }
 }
